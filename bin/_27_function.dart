@@ -20,6 +20,11 @@ void main(List<String> args) {
   // print("Arguments : $args");
 
   print(filteredNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], (p0) => p0 % 2 == 1));
+  print(filterBadWord("Orang lain ganteng", (words) {
+    return words.toLowerCase().replaceAll("gila", "***");
+  }));
+
+  print(upperCase("rizal fauzi"));
 }
 
 // default value dengan kurung siku / default value
@@ -61,3 +66,11 @@ List<int> filteredNumber(List<int> numbers, bool Function(int) filter) {
   // });
   // return filterednumber;
 }
+
+String filterBadWord(String word, String Function(String) filter) =>
+    filter(word);
+
+// anonymous function
+var upperCase = (String words) {
+  return words.toUpperCase();
+};
