@@ -3,9 +3,10 @@ void main(List<String> args) {
   print(list);
 
   final animals = ['anjing', 'kucing'];
-  final numbers = <num>[100, 23.2, 22, 20, 10.9];
+  final numbers = <dynamic>[100, 23.2, 22, 20, 10.9];
+  final dynamic names = ['Rizal', 'Fauzi', 1];
 
-  print('$animals $numbers');
+  print('$animals $numbers $names');
 
   animals.add("Harimau");
   animals[2] = 'Badak';

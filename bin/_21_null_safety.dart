@@ -17,7 +17,7 @@ void main(List<String> args) {
 
   // konversi secara paksa nullable ke non nullable;
   int? nullableint = 10;
-  int nonnullableint = nullableint!;
+  int? nonnullableint = nullableint!;
 
   // konversi nullable ke non nullable secara singkat
   int? intnumber;

@@ -2,7 +2,7 @@ void main(List<String> args) {
   /// set
   /// tidak menerima duplikat data
   /// tidak ada sistem index
-  Set<int> numbers = {1, 2, 4, 4, 5};
+  final Set<int> numbers = {1, 2, 4, 4, 5};
   numbers.add(6);
   print(numbers);
 

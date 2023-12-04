@@ -14,5 +14,6 @@ void main(List<String> args) {
       break;
     default:
       print("Mungkin Anda salah jurusan");
+      print("atau Anda tidak kuliah");
   }
 }

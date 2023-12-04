@@ -1,6 +1,6 @@
 void main(List<String> args) {
   String? warna;
-  String nama;
+  String? nama;
   nama = "Rizal Fauzi";
 
   print(warna);
